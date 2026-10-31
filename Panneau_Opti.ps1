@@ -3,18 +3,18 @@
 # ---------- Intro ASCII Art (CMD Only) ----------
 if ($host.Name -eq 'ConsoleHost' -and $PSVersionTable.PSEdition -eq 'Desktop') {
     $asciiIntro = @'
-LLLL                     TTTTTTTTTTTTTTT    RRRRRRRRRRRRRRR    
-LLLL                         TTT        RRRR        RRRR  
-LLLL                         TTT        RRRR        RRRR  
-LLLL                         TTT        RRRR        RRRR  
-LLLL                         TTT        RRRR        RRRR  
-LLLL                         TTT        RRRR        RRRR  
-LLLL                         TTT        RRRRRRRRRRRRRRRR  
-LLLL                         TTT        RRRR    RRRR      
-LLLL                         TTT        RRRR     RRRR     
-LLLL                         TTT        RRRR      RRRR    
-LLLLLLLLLLLLLLLL             TTT        RRRR       RRRR   
-LLLLLLLLLLLLLLLL             TTT        RRRR        RRRR  
+LLLL                    TTTTTTTTTTTTT        RRRRRRRRRRRRRRR    
+LLLL                         TTT             RRRR        RRRR  
+LLLL                         TTT             RRRR        RRRR  
+LLLL                         TTT             RRRR        RRRR  
+LLLL                         TTT             RRRR        RRRR  
+LLLL                         TTT             RRRR        RRRR  
+LLLL                         TTT             RRRRRRRRRRRRRRRR  
+LLLL                         TTT             RRRR    RRRR      
+LLLL                         TTT             RRRR     RRRR     
+LLLL                         TTT             RRRR      RRRR    
+LLLLLLLLLLLLLLLL             TTT             RRRR       RRRR   
+LLLLLLLLLLLLLLLL             TTT             RRRR        RRRR  
 '@
     $host.UI.RawUI.WindowTitle = "LTR - Toolbox"
     Clear-Host
