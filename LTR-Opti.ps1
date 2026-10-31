@@ -29,7 +29,7 @@ LLLLLLLLLLLLLLLL             TTT        RRRR        RRRR
 # ---------- AUTO-ELEVATION ----------
 $isAdmin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
 # >>> PUT YOUR PUBLIC LINK HERE (raw link of this file on GitHub). Needed for the 'irm ... | iex' launch.
-$scriptUrl = ''
+$scriptUrl = 'https://raw.githubusercontent.com/LTR031/LTR-OPTI/refs/heads/main/LTR-Opti.ps1'
 
 if (-not $isAdmin) {
     if ($PSCommandPath) {
